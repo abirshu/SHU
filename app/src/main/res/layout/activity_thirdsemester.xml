@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:weightSum="10"
+
+    tools:context=".Thirdsemester">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Third semester"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:background="#e6eeff"
+
+        />
+    <Button
+        android:id="@+id/dataStructureButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Data Structures and Algorithms"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+
+        />
+    <Button
+        android:id="@+id/oopButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Object Oriented Programming"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/circuitButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Electronic Devices and Circuits "
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/bdStudiesButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Bangladesh Studies"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/algebraButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Linear Algebra "
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+
+
+
+        />
+
+
+
+</LinearLayout>

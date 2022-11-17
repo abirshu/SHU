@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ecocontacts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chairman"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#9AE8E1"
+            android:layout_marginBottom="5dp"
+
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/ecoshovonsirButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Shovon Roy"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Teachers"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#9AE8E1"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+
+
+            />
+        <Button
+            android:id="@+id/ecotuhinsirButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Md Tuhin Ahmed"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20"/>
+        <Button
+            android:id="@+id/econadimSirButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Md Nadim Uddin"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView >

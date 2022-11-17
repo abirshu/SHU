@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SHU</string>
+    <string name="nav_open">Opne</string>
+    <string name="nav_close">Close</string>
+    <string name="title_text">Sheikh Hasina University</string>
+    <string name="message_text">Do you want to exit ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

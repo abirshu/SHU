@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Teachers">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/adittosir"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Department Chairmen"
+        android:textSize="30dp"
+        android:textColor="#F2011717"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/chairmenDetailsButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Details"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:backgroundTint="#FFEEE2"
+        android:textColor="#070504"
+        />
+
+
+</LinearLayout>

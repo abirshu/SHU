@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Eng_academics">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="First Year"
+            android:textAllCaps="false"
+            android:backgroundTint="#e6ffe6"
+            android:textSize="20dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#000000"
+
+            />
+        <Button
+            android:id="@+id/banFirstSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="First Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/one"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+        <Button
+            android:id="@+id/banSecondSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Second Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/two"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Second Year"
+            android:textAllCaps="false"
+            android:backgroundTint="#e6ffe6"
+            android:textSize="20dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#000000"
+
+            />
+        <Button
+            android:id="@+id/banThirdSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Third Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/three"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+        <Button
+            android:id="@+id/banFourthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Fourth Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/four"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Third Year"
+            android:textAllCaps="false"
+            android:backgroundTint="#e6ffe6"
+            android:textSize="20dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#000000"
+
+            />
+        <Button
+            android:id="@+id/banfifthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Fifth Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/five"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+        <Button
+            android:id="@+id/banSixthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Sixth Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/six"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Fourth Year"
+            android:textAllCaps="false"
+            android:backgroundTint="#e6ffe6"
+            android:textSize="20dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="#000000"
+
+            />
+        <Button
+            android:id="@+id/banSevenSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Seven Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/seven"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+        <Button
+            android:id="@+id/banEightSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Eight Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/eight"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

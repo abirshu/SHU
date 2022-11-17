@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homemenuButton"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/menuTeachersInfo"
+        android:title="Teachers Info"
+        android:icon="@drawable/teachersinfo"
+        />
+    <item
+        android:id="@+id/menuPhoto"
+        android:title="Photos"
+        android:icon="@drawable/photos"
+        />
+    <item
+        android:id="@+id/menuOverview"
+        android:title="Overview"
+        android:icon="@drawable/overview"
+        />
+    <item
+        android:id="@+id/menuImportantWebsite"
+        android:title="Important websitesite"
+        android:icon="@drawable/website"
+        />
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/menuFacebook"
+                android:title="Join us on Facebook"
+                android:icon="@drawable/fb"
+                />
+            <item
+                android:id="@+id/menuAbout"
+                android:title="About"
+                android:icon="@drawable/about"
+                />
+            <item
+                android:id="@+id/menuPrivacy"
+                android:title="Privacy Policy"
+                android:icon="@drawable/privacy"
+                />
+            <item
+                android:id="@+id/menuShare"
+                android:title="Share"
+                android:icon="@drawable/share"
+                />
+            <item
+                android:id="@+id/menuFeedback"
+                android:title="Feedback"
+                android:icon="@drawable/feedback"
+                />
+
+        </menu>
+
+    </item>
+</menu>

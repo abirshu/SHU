@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Allhallsinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Male Hall"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#ccddff"
+            android:layout_marginBottom="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/hallSuperonemaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hall Super-1"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/hallSupetwomaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hall Super-2"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+
+            android:textSize="17dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/administrativeofficermaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Administrative Officer"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Female Hall"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#ccddff"
+            android:layout_marginBottom="0dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+        <Button
+            android:id="@+id/hallSuperonefemaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hall Super-1"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"/>
+
+
+        <Button
+            android:id="@+id/hallSupetwofemaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Hall Super-2"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"/>
+        <Button
+            android:id="@+id/administrativeOfficerfemaleButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Administrative Officer"
+            android:backgroundTint="#EAEAEA"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/getter_than_20_20"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Office">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Vice-Chancellor"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/golamKabirSirButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Professor Dr. Golam Kabir"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Treasurer "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/adityaSirButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Professor Dr. Subrata Kumar Aditya"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#85e085"
+            android:text="Registrar "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/shuvroChandanButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Shuvro Chandan Mahali"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Acaedmic Section "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/alamgirHossainButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Alamgir Hossain"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/poranvaiButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Asaduzzaman Khan Poran"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Administrative Section "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+
+        <Button
+            android:id="@+id/taposskumarButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Tapos Kumar Karmoker"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Security Section "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/nulloneButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Null"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Office of the Finance and Accounts "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/azizurRahmanButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Md. Azizur Rahman"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/bulbuAhmedButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Md. Bulbel Ahmed"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Office of the Controller of Examination "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/nulltwoButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Null"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Office of the Planning and Development "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/mihirChakrabortyButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Mihir Chakraborty"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/saadMustaqimButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Md. Saad Mustaqim Khan"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Public Relation Office "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+
+        <Button
+            android:id="@+id/enamulHaqueButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Enamul Haque"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Engineering Office "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+        <Button
+            android:id="@+id/souravChowdhuryButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr.Sourav Chowdhury"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Proctor Office "
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#85e085"
+            />
+
+
+        <Button
+            android:id="@+id/proctorOneButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Mr. Safi Ullah"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/proctorTwoButtonButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Dr. Sanjida Islam"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:drawableRight="@drawable/getter_than_20_20"
+            android:layout_margin="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF2F2"
+    tools:context=".Transport">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text=" Bus current location"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:backgroundTint="#00B8D4"
+            android:textColor="#000000"
+            android:drawableRight="@drawable/getter_than_20"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Transport Office"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="3dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Drivers for students Bus"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:backgroundTint="#79f2d2"
+            android:layout_margin="0dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/saddamvaicallId"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="#d9ffcc">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Md Saddam Mridha"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:src="@drawable/calltwo" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginBottom="11dp"
+
+                android:text="Mobile : +8801736542353"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Boys Hall(Temporary)"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8:20 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1:55 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5:40 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Campus(Temporary)"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7:40 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1:30 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4:35 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="0dp"
+            android:backgroundTint="#79f2d2"
+            android:text="Drivers for Teachers Mini Bus"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/tonmoyvaicallId"
+            android:layout_width="match_parent"
+            android:background="#d9ffcc"
+            android:layout_margin="5dp"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Shahriar Mahmood (Tanmoy)"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:src="@drawable/calltwo" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="9dp"
+
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:text="Mobile : +8801624687485" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From teachers Quaters"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nagra - 8:20 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kurpar - 8:30 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Circuit House - 8:35 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mukterpara - 8:37 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sheikh Kamal IT - 8:40 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arambag Mor - 8:42 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patpotti - 8:48 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus - 9:00 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Campus"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus - 4:20 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="0dp"
+            android:backgroundTint="#79f2d2"
+            android:text="Drivers staff  Mini Bus"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/oshimvaicallId"
+            android:layout_width="match_parent"
+            android:background="#d9ffcc"
+            android:layout_margin="5dp"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Oshim Ahmed"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1dp"
+                    android:src="@drawable/calltwo" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="9dp"
+
+                android:textColor="#000000"
+                android:textSize="17dp"
+                android:text="Mobile : +8801739295173" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From staff Quaters"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nagra - 8:20 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mukterpara - 8:25 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Joynogor - 8:30 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PBI office - 8:40 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Patpotti - 8:40 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Barhatta road - 8:55 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus - 9:00 AM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Campus"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Campus - 4:10 PM"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last update: 1st November 2022"
+            android:textColor="#000000"
+            android:backgroundTint="#FFFFFF"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

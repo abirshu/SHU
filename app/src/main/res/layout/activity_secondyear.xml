@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_height="match_parent"
+    tools:context=".Secondyear">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Second Year"
+        android:textAllCaps="false"
+        android:backgroundTint="#e6ffe6"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+
+        />
+
+
+
+        <Button
+            android:id="@+id/thirdSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="First Semester"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:drawableLeft="@drawable/one"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+
+
+            />
+
+        <Button
+            android:id="@+id/fourthSemesterButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Second Semester"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/two"
+            android:textColor="#000000"
+            android:backgroundTint="#ffffff"
+            android:layout_margin="1dp"
+            android:drawableRight="@drawable/getter_than_20_20"
+            />
+
+
+
+</LinearLayout>

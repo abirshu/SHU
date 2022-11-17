@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Fourthsemester">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fourth semester"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:background="#e6eeff"
+
+        />
+    <Button
+        android:id="@+id/cseDbmsid"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Database Management Systems"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+    <Button
+       android:id="@+id/csealgorithmButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Design and Analysis of Algorithms"
+        android:textAllCaps="false"
+
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/tcseTelecommunicationButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Data and Telecommunication"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/cseArchitectureButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Computer Architecture and Organization"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/cseMechatronics"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Introduction to Mechatronics"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/getter_than_20_20"
+        android:layout_margin="5dp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+
+        />
+
+
+</LinearLayout>
